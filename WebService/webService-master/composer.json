@@ -1,0 +1,13 @@
+{
+  "name": "cf-php-gef/cf-php-gef",
+  "description": "Testing the use of PHP and PostgreSQL in Predix.",
+  "type": "Application",
+  "license": "GPL-2.0+",
+  "require": {
+    "php": "5.6.*",
+    "ext-pgsql": "*",
+    "ext-pdo": "*",
+    "ext-pdo_pgsql": "*"
+  }
+}
+

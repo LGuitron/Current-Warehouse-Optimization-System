@@ -1,0 +1,9 @@
+---
+#Generated manifest
+applications:
+- name: webservice-warehouse
+  memory: 512M
+  instances: 1
+  domain: run.aws-usw02-pr.ice.predix.io
+  path: .
+  buildpack: https://github.com/cloudfoundry/php-buildpack

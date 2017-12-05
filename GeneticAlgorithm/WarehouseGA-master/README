@@ -1,0 +1,23 @@
+En este directorio se encuentran los avances del algoritmo genético utilizado para el reacomodo del producto del almacén.
+
+Los archivos de este directorio tienen las siguientes funcionalidades:
+1. OptimizeWarehouse.java - Este archivo tiene la función main del programa, en este se establece el modelo del algoritmo (definición de genotipos y función de crossover) y se declaran los hiperparámetros que corresponden a la probabilidad de crossover, probabilidad de mutación, cantidad de individuos por generación y número máximo de generaciones.
+
+2. CreateWarehouse.java - Este archivo tiene la funcionalidad de generar información correspondiente a las ditancias entre los bloques de un almacén y las frecuencias de las rutas entre los bloques. Las funciones distFile y freqFile generan esta información de forma aleatoria, mientras que la función freqInfo obtiene la información del servidor "http://ubiquitous.csf.itesm.mx/~Warehouse/freqData.php".
+
+Para esta sección todavía se debe buscar aproximar la información a los datos esperados en un almacén real para poder tener mejores predicciones con respecto al porcentaje de mejora del almacén.
+Adicionalmente, todavía se requiere de un programa que genere información de las distancias entre los bloques del almacén de forma automática.
+
+3. GenotypeCost.java - Este archivo define la función de costo para los genotipos del algoritmo, en esta función se define que el costo de un genotipo corresponde al producto de las distancias entre cada bloque con respecto a los demás multiplicado por la frecuencia en la que se hizo cada una de las rutas, de esta forma se calcula la distancia total recorrida correspondiente a la permutación actual. Para esta función se toma en cuenta que puede haber secciones intercambiables (bloques con producto) y secciones fijas (zonas de carga, descarga, producción, etc). 
+En nuestro modelo genético nuestro objetivo es minimizar este costo.
+
+4.JsonData.java - Este archivo obtiene la información del servidor http://ubiquitous.csf.itesm.mx/~Warehouse/freqData.php en formato JSON e introduce la información de las frecuencias del almacen en una matriz de enteros.
+
+5. DataRequest.java - Este archivo tiene la función sendPost(), la cual define las propiedades del http request que se realizan para obtener la información de la web app.
+
+6. Archivos.txt - Archivos con información generada de forma aleatoria con los que se realizan pruebas rápidas para definir mejor los hiperparámetros del algoritmo genético.
+
+7. manifest.txt - Este archivo es utilizado para generar el archivo .jar del programa, en este archivo se establece cuál es al archivo que contiene la función main y se incluye el classpath de java requerido para poder compilar tomando en cuenta las librerías de dependencia.
+
+8. manifest.yml - Este archivo contiene la información requerida para poder subir el ejecutable .jar del programa a predix por medio de cloudfoundry.
+

@@ -1,0 +1,70 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Warehouse Scanner</string>
+
+    <!-- Items from the products list -->
+    <string name="leave_product">Leave</string>
+    <string name="delete_product">Delete</string>
+
+    <!-- Login -->
+    <string name="welcome">WELCOME</string>
+    <string name="option">Choose the lift truck you want to use:</string>
+    <string name="start">Start</string>
+
+    <!-- Splash One -->
+    <string name="splash_one">Warehouse Splash One</string>
+    <string name="loading">LOADING…</string>
+
+    <!-- Splash Two -->
+    <string name="splash_two">Warehouse Splash Two</string>
+
+    <!-- Items from the menu of Tabs -->
+    <string name="upload_pending">Upload pending</string>
+    <string name="list_products">List of products</string>
+    <string name="log_out">Log out</string>
+
+    <!-- Indoor App -->
+    <string name="title_section1">Registered Beacons</string>
+    <string name="title_section2">About</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings1">Synchronize with Database</string>
+    <string name="action_settings2">Update Database</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="act_beacons">Beacon Information</string>
+    <string name="zone_input">Enter Zone</string>
+    <string name="zone_label">Zone:</string>
+    <string name="major_label">Major:</string>
+    <string name="minor_label">Minor:</string>
+    <string name="posx_label">Pos X:</string>
+    <string name="posy_label">Pos Y:</string>
+    <string name="posx_input">Enter X position</string>
+    <string name="posy_input">Enter Y position</string>
+    <string name="new_beacon_btn">New Beacon</string>
+    <string name="save_btn">Save</string>
+
+    <!-- Beacons Setup -->
+    <string name="floors_label">Floors:</string>
+    <string name="capacity_label">Capacity:</string>
+    <string name="cost_label">Cost:</string>
+    <string name="type_label">Type:</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="closest_beacon_button">Select Closest Beacon</string>
+    <string name="update_zone_button">Update Zone</string>
+    <string name="reset_beacon_button">Reset Beacon ID</string>
+    <string name="beacon_id_label">Beacon ID:</string>
+    <string name="closest_beacon_label">Closest Beacon:</string>
+    <string name="position_label">Position:</string>
+    <string name="missing">missing</string>
+    <string name="products_label">PRODUCTS</string>
+    <string name="welcome_message">The ID of the lift truck is:</string>
+    <string name="empty_list">Empty list</string>
+    <string name="database_content">DATABASE CONTENT</string>
+    <string name="accept">ACCEPT</string>
+    <string name="indoor_setup">Indoor Setup</string>
+    <string name="enter_password">Enter Password:</string>
+
+</resources>

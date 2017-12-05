@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+html
+{
+    height: 100%;
+    overflow-y: scroll;
+}
+body
+{
+    background-color: #dbd8d2;
+    margin:0;
+
+}
+
+.left-block
+{
+	float:right;
+    width: 400px;
+    height:400px;
+    padding: 20px;
+    background: #fff;
+    margin: 0 auto;
+
+ position:relative;
+  	left: 13%;
+  	margin-top:0%;
+}
+
+.left-block input {
+	float:left;
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.left-block select {
+	float:left;
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+
+/*----TITULO----*/
+ h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+/*----BOTON----*/
+ .button {
+   float:right;
+   position: relative;
+   margin-top: -10%;
+    width: 50%;
+    height: 40px;
+    background: #ffb500;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e15960;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    white-space: normal;
+    margin:0px;
+    outline:none;
+    vertical-align: top;
+  /*  outline: none;
+    cursor: pointer;*/
+}
+
+/*-----MENSAJE DE ERROR-----*/
+.infRojo {
+    width: 30%;
+    margin: 10px 0px;
+    padding:12px;
+    color: #D8000C;
+    background-color: #FFBABA;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0px;
+    padding:12px;
+    border-radius:.5em;
+     position:relative;
+    left: 35%;
+    margin-top:0%;
+    box-shadow:1px 1px 3px #888;
+}
+.infVerde {
+    width: 30%;
+    margin: 10px 0px;
+    padding:12px;
+    color: #04ef14;
+    background-color: #baf9b3;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0px;
+    padding:12px;
+    border-radius:.5em;
+     position:relative;
+    left: 35%;
+    margin-top:0%;
+    box-shadow:1px 1px 3px #888;
+}

@@ -1,0 +1,12 @@
+ En este sprint se adaptó la función de costo del algoritmo genético para buscar permutaciones eficientes en base al conocimiento del producto que se mueve.
+ 
+ El costo de un estado del almacén está dado por tres factores:
+1. Costo de Salida - El costo de mover un producto a la salida o salidas a las que es movido con frecuencia.
+ 2. Costo de Entrada y Salida - Para el producto entrante se considera el costo de colocar el producto en una ubicación específica junto con el costo que habrá para su salida.
+ 3. Costo de Reacomodo - Para estados del almacén distinto al del estado actual se toma en cuenta el esfuerzo que será requerido para reacomodar el almacén de la forma sugerida. Mientras más largo sea el periodo de captura menor será el peso del costo del reacomodo en el costo total del estado.
+ 
+ 
+ Todavía falta para el siguiente sprint: 
+ 1. Realizar queries a la base de datos con los cambios de esquema requeridos para obtener toda la información necesaria.
+ 
+2. Definir constante para considerar distancia vertical.

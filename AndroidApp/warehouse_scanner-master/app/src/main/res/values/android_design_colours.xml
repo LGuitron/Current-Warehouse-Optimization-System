@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- google's material design colours from
+        http://www.google.com/design/spec/style/item.html#item-ui-item-palette -->
+
+    <string-array name="colors">
+
+    <!-- light blue-->
+    <item name="md_light_blue_200" type="color">#81D4fA</item>
+    <item name="md_light_blue_300" type="color">#4fC3F7</item>
+    <item name="md_light_blue_400" type="color">#29B6FC</item>
+    <item name="md_light_blue_A100" type="color">#80D8FF</item>
+    <item name="md_light_blue_A200" type="color">#40C4FF</item>
+    <item name="md_light_blue_A400" type="color">#00B0FF</item>
+    <item name="md_light_blue_A700" type="color">#0091EA</item>
+
+    <!-- cyan -->
+    <item name="md_cyan_200" type="color">#80DEEA</item>
+    <item name="md_cyan_300" type="color">#4DD0E1</item>
+    <item name="md_cyan_400" type="color">#26C6DA</item>
+    <item name="md_cyan_500" type="color">#00BCD4</item>
+
+    <!--light green-->
+    <item name="md_light_green_300" type="color">#AED581</item>
+    <item name="md_light_green_400" type="color">#9CCC65</item>
+    <item name="md_light_green_500" type="color">#8BC34A</item>
+
+    <!-- lime-->
+    <item name="md_lime_300" type="color">#DCE775</item>
+    <item name="md_lime_400" type="color">#D4E157</item>
+    <item name="md_lime_500" type="color">#CDDC39</item>
+    <item name="md_lime_A700" type="color">#AEEA00</item>
+
+    <!--yellow -->
+    <item name="md_yellow_300" type="color">#FFF176</item>
+    <item name="md_yellow_400" type="color">#FFEE58</item>
+    <item name="md_yellow_500" type="color">#FFEB3B</item>
+    <item name="md_yellow_600" type="color">#FDD835</item>
+    <item name="md_yellow_700" type="color">#FBC02D</item>
+    <item name="md_yellow_A400" type="color">#FFEA00</item>
+    <item name="md_yellow_A700" type="color">#FFD600</item>
+
+    <!--amber-->
+    <item name="md_amber_400" type="color">#FFCA28</item>
+    <item name="md_amber_500" type="color">#FFC107</item>
+    <item name="md_amber_600" type="color">#FFB300</item>
+    <item name="md_amber_A100" type="color">#FFE57F</item>
+    <item name="md_amber_A200" type="color">#FFD740</item>
+    <item name="md_amber_A400" type="color">#FFC400</item>
+    <item name="md_amber_A700" type="color">#FFAB00</item>
+
+    <!--orange-->
+    <item name="md_orange_300" type="color">#FFB74D</item>
+    <item name="md_orange_400" type="color">#FFA726</item>
+    <item name="md_orange_500" type="color">#FF9800</item>
+    <item name="md_orange_A100" type="color">#FFD180</item>
+    <item name="md_orange_A200" type="color">#FFAB40</item>
+    <item name="md_orange_A400" type="color">#FF9100</item>
+    <item name="md_orange_A700" type="color">#FF6D00</item>
+    </string-array>
+
+</resources>

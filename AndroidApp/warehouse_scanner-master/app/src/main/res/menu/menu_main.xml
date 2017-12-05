@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.itesm.csf.ge_scanner.Tabs">
+    <item
+        android:id="@+id/upload_pending"
+        android:orderInCategory="100"
+        android:title="@string/upload_pending"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/list_products"
+        android:orderInCategory="100"
+        android:title="@string/list_products"
+        app:showAsAction="never" />
+
+
+    <!--<item
+        android:id="@+id/lid"
+        android:orderInCategory="100"
+        android:title="Prueba deleted"
+        app:showAsAction="never" /> -->
+
+    <item
+        android:id="@+id/IndoorSetup"
+        android:orderInCategory="100"
+        android:title="@string/indoor_setup"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+
+</menu>
