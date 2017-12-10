@@ -14,6 +14,8 @@ navbar();
     <body>
         <?php
 
+        $webserviceURL = 'https://webservice-warehouse.run.aws-usw02-pr.ice.predix.io';
+        
         //SECTIONS DRAW//
         $data = array('s' => 'sectionsDraw');
         $json = json_encode($data);
@@ -27,7 +29,7 @@ navbar();
         ));
 
         // Send the request
-        $response = file_get_contents('https://webservice-warehouse.run.aws-usw02-pr.ice.predix.io', FALSE, $context);
+        $response = file_get_contents($webserviceURL, FALSE, $context);
 
         $solution_id = $_POST['solution_id'];
 
@@ -50,7 +52,7 @@ navbar();
                 'content' => "[".$instructionsJson."]"
             )
         ));
-        $instructionsInfo = file_get_contents('https://webservice-warehouse.run.aws-usw02-pr.ice.predix.io', FALSE, $instructionContext);
+        $instructionsInfo = file_get_contents($webserviceURL, FALSE, $instructionContext);
 
         // Check for errors
         if($response === FALSE)
@@ -308,6 +310,7 @@ navbar();
                                 <line x1=\"" . $_x1 . "\" y1=\"" . $_y1 . "\" x2=\"" . $_x2 . "\" y2=\"" . $_y2 . "\" style=\"stroke:rgb(0,0,255);stroke-width:4\" />";
                             }
                         }
+                        //
 
                     ?>
                             </svg>
@@ -391,10 +394,10 @@ navbar();
         </script>
         <script>
 
-            function toggleStep(step, solution_id)
+            function toggleStep(step, solution_id , webserviceURL)
             {
                 var json = "[{\"s\":\"updateChecklist\", \"step\":" + step + ", \"solution_id\":" +solution_id +" }]";
-
+                
                 $.ajax({
                 type: "POST",
                 beforeSend: function(request) {
