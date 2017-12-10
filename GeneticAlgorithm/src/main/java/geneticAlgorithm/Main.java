@@ -7,6 +7,7 @@ import org.json.JSONException;
 //EXECUTION PARAMETERS (JSON format)//
 //{"startDate":"26-08-2017", "endDate":"26-12-2017" , "user_id":"1", "reservePercent":"0", "emails" : {"1" : "legl_1995@hotmail.com"}}
 
+
 public class Main
 {    
     //URL of the web service where all requests are made//
@@ -21,6 +22,7 @@ public class Main
     {
         //SET THE URL OF YOUR WEB SERVICE HERE//
         webServiceURL = "https://webservice-warehouse.run.aws-usw02-pr.ice.predix.io";
+        
         
         String[] emails = null;
         boolean hasRecipients = false;
@@ -98,7 +100,7 @@ public class Main
     }
 
     ///////////////////////////////////////////////MAIN//////////////////////////////////////////////////
-    public static void main(String[] args)
+    /*public static void main(String[] args)
     {   
         //TEST//
         //String a = run ("{\"startDate\":\"26-10-2017\", \"endDate\":\"26-11-2017\" , \"user_id\":\"1\", \"reservePercent\":\"0\" , \"epsilon\":\"10E-25\", \"longPeriodFactor\":\"25\" , \"shortPeriodFactor\":\"3\",\"emails\" : {\"1\" : \"legl_1995@hotmail.com\"}}");
@@ -110,5 +112,5 @@ public class Main
         String a = run ("{\"startDate\":\"26-10-2017\", \"endDate\":\"26-12-2017\" , \"user_id\":\"1\", \"reservePercent\":\"1.5\",\"emails\" : {\"1\" : \"legl_1995@hotmail.com\"}}");
         
         System.out.println(a);
-    }
+    }*/
 }
